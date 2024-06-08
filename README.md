@@ -10,31 +10,38 @@
 ![image](https://github.com/MauricioAndreolla/ConversorDeMoedas/assets/44854911/ceadf61c-8ce8-4200-9bf5-e4a71defed9f)
 
 
-<h2 id="tech">Tecnologias</h2>
+<h2 id="tech">Tecnologias 🧰</h2>
+  <p align="center">
+   <strong>
+    React |
+    Typescript | 
+    Tailwind |
+    Next
+    </strong>
+  </p>
+
+ Construido utilizando ReactJS com tipagem Typescript e integrada com uma API para consulta e cálculo dos valores.
 
 
-  Construido utilizando ReactJS com tipagem Typescript e integrada com uma API para consulta e cálculo dos valores.
+<h2 id="acesso">Acesso ao app 🔑</h2>
 
-
-<h2 id="acesso">Acesso ao app</h2>
-
-  
+ https://conversor-de-moedas-roan.vercel.app/
  
 
-<h2 id="clone">Clone</h2>
+<h2 id="clone">Clone 📍</h2>
 
 <h4> Pre Requisitos</h4>
 
 - Gerenciador de pacotes - NPM or PNPM
 
-<h4>Clonando</h4>
+<h4>Clonando 🐱‍👤</h4>
 
 ```
 git clone https://github.com/MauricioAndreolla/conversordemoedas.git
 npm install
 ```
 
-<h5>Iniciando localmente</h5>
+<h5>Iniciando localmente 💻</h5> 
 
 ```
   cd ConversorDeMoedas
