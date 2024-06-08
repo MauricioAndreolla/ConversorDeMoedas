@@ -4,6 +4,7 @@ import axios from 'axios';
 import Loading from './components/Loading';
 import Currencies from './data/currencies.json';
 import { toast, ToastContainer } from 'react-toastify';
+import { Divide } from 'lucide-react';
 
 
 export default function Home() {
@@ -108,7 +109,9 @@ export default function Home() {
   }, [primaryCurrency, secondCurrency])
 
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col h-screen justify-center items-center">
+
+     
       <ToastContainer
         theme='dark'
         draggable={true}
@@ -120,9 +123,9 @@ export default function Home() {
           <Loading />
           :
           <>
-            <div className="flex flex-col items-center justify-center w-[550px] h-[480px] rounded bg-zinc-900 hover:shadow-xl hover:shadow-green-900/50 transition duration-500 delay-400">
+            <div className="flex flex-col items-center justify-center w-[550px] h-[480px] rounded bg-zinc-900 hover:shadow-xl hover:shadow-green-900/50 transition duration-500 delay-400 mt-5">
 
-              <div className="m-3 text-center">
+              <div className="mt-3 text-center">
                 <h5 className="text-white text-center font-bold text-2xl">Conversão de moedas para <span className='font-bold text-green-700'>{primaryCurrency}</span></h5>
               </div>
 
@@ -171,13 +174,13 @@ export default function Home() {
 
               </div>
 
-              <div className="flex justify-center items-center mt-3">
+              <div className="flex justify-center items-center mt-3 p-2">
                 <button className='w-[100px] h-[40px] bg-green-800 hover:bg-green-700 rounded-lg mx-2' onClick={() => CalcValues()}>Calcular</button>
               </div>
 
             </div>
 
-            <div className='flex flex-col flex-grow bg-zinc-900 w-[350px] h-[220px] items-center justify-center rounded mt-3 mb-3 hover:shadow-xl hover:shadow-green-900/50 transition duration-500 delay-400'>
+            <div className='flex flex-col flex-grow flex-wrap bg-zinc-900 w-[350px] h-[220px] items-center justify-center rounded mt-3 hover:shadow-xl hover:shadow-green-900/50 transition duration-500 delay-400'>
               <div className='p-2'>
                 <h2 className='font-bold text-2xl'>Cotações</h2>
               </div>
@@ -204,17 +207,18 @@ export default function Home() {
 
             </div>
 
-            <div className='flex flex-row bg-zinc-900 items-center justify-center rounded mt-3 w-[350px] h-[170px] hover:shadow-xl hover:shadow-green-900/50 transition duration-500 delay-400 overflow-x-auto overflow-y-auto'>
+            <div className='flex flex-row flex-grow flex-wrap w-full bg-zinc-900 items-center justify-center rounded mt-3 min-w-min-[250px] h-[150px] hover:shadow-xl hover:shadow-green-900/50 transition duration-500 delay-400 overflow-x-auto overflow-y-auto mb-4 '>
 
-              <div className='mx-3 text-center w-full'>
+              <div className='mx-3 text-center'>
                 <h2 className='font-bold text-3xl'>Baixa</h2>
                 <small className='text-green-800 text-2xl'>{converNumberToMonetary(valueLow)}</small>
               </div>
 
-              <div className='mx-3 text-center w-full'>
+              <div className='mx-3 text-center'>
                 <h2 className='font-bold text-3xl'>Alta</h2 >
                 <small className='text-red-800 text-2xl'>{converNumberToMonetary(valueHigh)}</small>
               </div>
+              
 
             </div>
 
