@@ -3,7 +3,7 @@
 <p align="center">
  <a href="#tech">Tecnologias</a> • 
  <a href="#clone">Clonar</a> • 
- <a href="#acesso">Acesso ao aplicativo</a> • 
+ <a href="#acesso">Acesso ao aplicativo</a> 
 </p>
 
 
