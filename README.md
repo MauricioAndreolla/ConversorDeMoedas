@@ -47,3 +47,5 @@ npm install
   cd ConversorDeMoedas
   npm run dev
 ```
+
+. Logo após sera necessário remover o nome .example das variavies de ambiente
