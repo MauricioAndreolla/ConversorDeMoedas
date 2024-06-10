@@ -3,7 +3,8 @@
 <p align="center">
  <a href="#tech">Tecnologias</a> • 
  <a href="#clone">Clonar</a> • 
- <a href="#acesso">Acesso ao aplicativo</a> 
+ <a href="#acesso">Acesso ao aplicativo</a> • 
+ <a href="#apis">Api's utilizadas</a> 
 </p>
 
 
@@ -48,4 +49,10 @@ npm install
   npm run dev
 ```
 
-. Logo após sera necessário remover o nome .example das variavies de ambiente
+- Logo após sera necessário remover o nome .example das variavies de ambiente
+
+
+<h2 id="apis">Api's externas utilizadas 👨‍🚀</h2>
+
+Api para resgate das cotações: https://docs.awesomeapi.com.br/api-de-moedas
+
