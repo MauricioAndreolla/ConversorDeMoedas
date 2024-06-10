@@ -7,7 +7,7 @@
 </p>
 
 
-![image](https://github.com/MauricioAndreolla/ConversorDeMoedas/assets/44854911/ceadf61c-8ce8-4200-9bf5-e4a71defed9f)
+![App Interface principal](https://github.com/MauricioAndreolla/ConversorDeMoedas/assets/44854911/43624de9-cdba-4695-b9eb-d518604e5788)
 
 
 <h2 id="tech">Tecnologias 🧰</h2>
